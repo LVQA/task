@@ -1,0 +1,88 @@
+ .header table{
+    width: 100%;
+}
+ .header table td a{
+     padding-left: 10px;
+     padding-right: 10px;
+     text-decoration: none;
+     font-family: Arial;
+     font-size: 16px;
+     color: black;
+ }
+ .header button{
+     color: black;
+     background-color: gainsboro;
+
+ }
+ .container{
+     padding-top: 20px;
+ }
+ .container .sidebar{
+     height: 100%;
+     width: 200px;
+     position: absolute;
+     z-index: 1;
+
+ }
+ .container a{
+     display: block;
+     padding: 6px;
+     text-decoration: none;
+     font-size: 16px;
+     font-family: Arial;
+     color: black;
+ }
+ .container a:hover{
+     background-color: #948a8a4f
+ }
+ .container .content {
+     margin-left: 200px;
+
+ }
+
+ .container  thead td{
+     background-color: gainsboro;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     border-radius: 10px 10px 0px 0px ;
+    font-weight: bold;
+     font-family: Arial;
+ }
+
+ .container .content p{
+     margin-bottom: 0px;
+     margin-top: 0px;
+ }
+ .container .content table, thead, tbody{
+
+     border-spacing:15px 0px ;
+
+ }
+ .container .content tbody td{
+     height: 150px;
+     vertical-align: bottom;
+     background-size: cover;
+     border-radius: 0px 0px 15px 15px;
+ }
+ .container .content tbody td:hover{
+        box-shadow: 5px 5px 10px #9e9e9ec2;
+ }
+ .container .content tbody p{
+     width: 250px;
+
+     height : auto;
+     display: block;
+
+     color:  white;
+     background-color: #0000007d;
+     padding-top:  5px;
+     padding-left: 5px;
+     border-radius: 0px 0px 15px 15px;
+     font-weight: bold;
+ }
+
+
+
+
+
